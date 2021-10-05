@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Logo]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[FileName] NVARCHAR(50) NOT NULL
+)
