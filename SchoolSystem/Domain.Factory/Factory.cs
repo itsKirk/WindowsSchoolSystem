@@ -13,6 +13,9 @@ using SchoolSystem.Repository.SqlLiteCode;
 
 namespace SchoolSystem.Core.Domain.Factory
 {
+  /// <summary>
+  /// Initializes domain objects
+  /// </summary>
   internal static class Factory
   {
     internal static ICounty CreateCounty() => new County();
